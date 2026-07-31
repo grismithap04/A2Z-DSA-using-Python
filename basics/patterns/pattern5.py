@@ -1,0 +1,7 @@
+class Solution:
+    def pattern5(self, n):
+        for i in range(n,0,-1):
+            for j in range(n,0,-1):
+                if i>=j:
+                    print('*',end='')
+            print(end="\n")
